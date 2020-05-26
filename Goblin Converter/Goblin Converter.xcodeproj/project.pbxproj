@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009A299C240D347400CDDF6C /* Goblin_ConverterUITests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A299B240D347400CDDF6C /* Goblin_ConverterUITests2.swift */; };
+		009A29A4240D348400CDDF6C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A29A3240D348400CDDF6C /* SnapshotHelper.swift */; };
+		00D182EE240CDA5D008ED4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D182ED240CDA5D008ED4BE /* AppDelegate.swift */; };
+		00D182F0240CDA5D008ED4BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D182EF240CDA5D008ED4BE /* SceneDelegate.swift */; };
+		00D182F2240CDA5D008ED4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D182F1240CDA5D008ED4BE /* ViewController.swift */; };
+		00D182F5240CDA5D008ED4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D182F3240CDA5D008ED4BE /* Main.storyboard */; };
+		00D182F7240CDA5E008ED4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D182F6240CDA5E008ED4BE /* Assets.xcassets */; };
+		00D182FA240CDA5E008ED4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D182F8240CDA5E008ED4BE /* LaunchScreen.storyboard */; };
+		00D18305240CDA5E008ED4BE /* Goblin_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D18304240CDA5E008ED4BE /* Goblin_ConverterTests.swift */; };
+		00D18310240CDA5E008ED4BE /* Goblin_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D1830F240CDA5E008ED4BE /* Goblin_ConverterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009A299E240D347400CDDF6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D182E2240CDA5D008ED4BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D182E9240CDA5D008ED4BE;
+			remoteInfo = "Goblin Converter";
+		};
+		00D18301240CDA5E008ED4BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D182E2240CDA5D008ED4BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D182E9240CDA5D008ED4BE;
+			remoteInfo = "Goblin Converter";
+		};
+		00D1830C240CDA5E008ED4BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D182E2240CDA5D008ED4BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D182E9240CDA5D008ED4BE;
+			remoteInfo = "Goblin Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009A2999240D347400CDDF6C /* Goblin ConverterUITests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goblin ConverterUITests2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		009A299B240D347400CDDF6C /* Goblin_ConverterUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goblin_ConverterUITests2.swift; sourceTree = "<group>"; };
+		009A299D240D347400CDDF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009A29A3240D348400CDDF6C /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		00D182EA240CDA5D008ED4BE /* Goblin Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goblin Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D182ED240CDA5D008ED4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00D182EF240CDA5D008ED4BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00D182F1240CDA5D008ED4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00D182F4240CDA5D008ED4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00D182F6240CDA5E008ED4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00D182F9240CDA5E008ED4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00D182FB240CDA5E008ED4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D18300240CDA5E008ED4BE /* Goblin ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goblin ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D18304240CDA5E008ED4BE /* Goblin_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goblin_ConverterTests.swift; sourceTree = "<group>"; };
+		00D18306240CDA5E008ED4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D1830B240CDA5E008ED4BE /* Goblin ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goblin ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D1830F240CDA5E008ED4BE /* Goblin_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goblin_ConverterUITests.swift; sourceTree = "<group>"; };
+		00D18311240CDA5E008ED4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009A2996240D347400CDDF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D182E7240CDA5D008ED4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D182FD240CDA5E008ED4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D18308240CDA5E008ED4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009A299A240D347400CDDF6C /* Goblin ConverterUITests2 */ = {
+			isa = PBXGroup;
+			children = (
+				009A299B240D347400CDDF6C /* Goblin_ConverterUITests2.swift */,
+				009A299D240D347400CDDF6C /* Info.plist */,
+			);
+			path = "Goblin ConverterUITests2";
+			sourceTree = "<group>";
+		};
+		00D182E1240CDA5D008ED4BE = {
+			isa = PBXGroup;
+			children = (
+				00D182EC240CDA5D008ED4BE /* Goblin Converter */,
+				00D18303240CDA5E008ED4BE /* Goblin ConverterTests */,
+				00D1830E240CDA5E008ED4BE /* Goblin ConverterUITests */,
+				009A299A240D347400CDDF6C /* Goblin ConverterUITests2 */,
+				00D182EB240CDA5D008ED4BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00D182EB240CDA5D008ED4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00D182EA240CDA5D008ED4BE /* Goblin Converter.app */,
+				00D18300240CDA5E008ED4BE /* Goblin ConverterTests.xctest */,
+				00D1830B240CDA5E008ED4BE /* Goblin ConverterUITests.xctest */,
+				009A2999240D347400CDDF6C /* Goblin ConverterUITests2.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00D182EC240CDA5D008ED4BE /* Goblin Converter */ = {
+			isa = PBXGroup;
+			children = (
+				00D182ED240CDA5D008ED4BE /* AppDelegate.swift */,
+				00D182EF240CDA5D008ED4BE /* SceneDelegate.swift */,
+				00D182F1240CDA5D008ED4BE /* ViewController.swift */,
+				00D182F3240CDA5D008ED4BE /* Main.storyboard */,
+				00D182F6240CDA5E008ED4BE /* Assets.xcassets */,
+				00D182F8240CDA5E008ED4BE /* LaunchScreen.storyboard */,
+				00D182FB240CDA5E008ED4BE /* Info.plist */,
+			);
+			path = "Goblin Converter";
+			sourceTree = "<group>";
+		};
+		00D18303240CDA5E008ED4BE /* Goblin ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				00D18304240CDA5E008ED4BE /* Goblin_ConverterTests.swift */,
+				00D18306240CDA5E008ED4BE /* Info.plist */,
+			);
+			path = "Goblin ConverterTests";
+			sourceTree = "<group>";
+		};
+		00D1830E240CDA5E008ED4BE /* Goblin ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				009A29A3240D348400CDDF6C /* SnapshotHelper.swift */,
+				00D1830F240CDA5E008ED4BE /* Goblin_ConverterUITests.swift */,
+				00D18311240CDA5E008ED4BE /* Info.plist */,
+			);
+			path = "Goblin ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009A2998240D347400CDDF6C /* Goblin ConverterUITests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009A29A0240D347400CDDF6C /* Build configuration list for PBXNativeTarget "Goblin ConverterUITests2" */;
+			buildPhases = (
+				009A2995240D347400CDDF6C /* Sources */,
+				009A2996240D347400CDDF6C /* Frameworks */,
+				009A2997240D347400CDDF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009A299F240D347400CDDF6C /* PBXTargetDependency */,
+			);
+			name = "Goblin ConverterUITests2";
+			productName = "Goblin ConverterUITests2";
+			productReference = 009A2999240D347400CDDF6C /* Goblin ConverterUITests2.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		00D182E9240CDA5D008ED4BE /* Goblin Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D18314240CDA5E008ED4BE /* Build configuration list for PBXNativeTarget "Goblin Converter" */;
+			buildPhases = (
+				00D182E6240CDA5D008ED4BE /* Sources */,
+				00D182E7240CDA5D008ED4BE /* Frameworks */,
+				00D182E8240CDA5D008ED4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goblin Converter";
+			productName = "Goblin Converter";
+			productReference = 00D182EA240CDA5D008ED4BE /* Goblin Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00D182FF240CDA5E008ED4BE /* Goblin ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D18317240CDA5E008ED4BE /* Build configuration list for PBXNativeTarget "Goblin ConverterTests" */;
+			buildPhases = (
+				00D182FC240CDA5E008ED4BE /* Sources */,
+				00D182FD240CDA5E008ED4BE /* Frameworks */,
+				00D182FE240CDA5E008ED4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D18302240CDA5E008ED4BE /* PBXTargetDependency */,
+			);
+			name = "Goblin ConverterTests";
+			productName = "Goblin ConverterTests";
+			productReference = 00D18300240CDA5E008ED4BE /* Goblin ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00D1830A240CDA5E008ED4BE /* Goblin ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D1831A240CDA5E008ED4BE /* Build configuration list for PBXNativeTarget "Goblin ConverterUITests" */;
+			buildPhases = (
+				00D18307240CDA5E008ED4BE /* Sources */,
+				00D18308240CDA5E008ED4BE /* Frameworks */,
+				00D18309240CDA5E008ED4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D1830D240CDA5E008ED4BE /* PBXTargetDependency */,
+			);
+			name = "Goblin ConverterUITests";
+			productName = "Goblin ConverterUITests";
+			productReference = 00D1830B240CDA5E008ED4BE /* Goblin ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00D182E2240CDA5D008ED4BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = wook;
+				TargetAttributes = {
+					009A2998240D347400CDDF6C = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 00D182E9240CDA5D008ED4BE;
+					};
+					00D182E9240CDA5D008ED4BE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					00D182FF240CDA5E008ED4BE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 00D182E9240CDA5D008ED4BE;
+					};
+					00D1830A240CDA5E008ED4BE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 00D182E9240CDA5D008ED4BE;
+					};
+				};
+			};
+			buildConfigurationList = 00D182E5240CDA5D008ED4BE /* Build configuration list for PBXProject "Goblin Converter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00D182E1240CDA5D008ED4BE;
+			productRefGroup = 00D182EB240CDA5D008ED4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00D182E9240CDA5D008ED4BE /* Goblin Converter */,
+				00D182FF240CDA5E008ED4BE /* Goblin ConverterTests */,
+				00D1830A240CDA5E008ED4BE /* Goblin ConverterUITests */,
+				009A2998240D347400CDDF6C /* Goblin ConverterUITests2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009A2997240D347400CDDF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D182E8240CDA5D008ED4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D182FA240CDA5E008ED4BE /* LaunchScreen.storyboard in Resources */,
+				00D182F7240CDA5E008ED4BE /* Assets.xcassets in Resources */,
+				00D182F5240CDA5D008ED4BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D182FE240CDA5E008ED4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D18309240CDA5E008ED4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009A2995240D347400CDDF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009A299C240D347400CDDF6C /* Goblin_ConverterUITests2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D182E6240CDA5D008ED4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D182F2240CDA5D008ED4BE /* ViewController.swift in Sources */,
+				00D182EE240CDA5D008ED4BE /* AppDelegate.swift in Sources */,
+				00D182F0240CDA5D008ED4BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D182FC240CDA5E008ED4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D18305240CDA5E008ED4BE /* Goblin_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D18307240CDA5E008ED4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D18310240CDA5E008ED4BE /* Goblin_ConverterUITests.swift in Sources */,
+				009A29A4240D348400CDDF6C /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009A299F240D347400CDDF6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D182E9240CDA5D008ED4BE /* Goblin Converter */;
+			targetProxy = 009A299E240D347400CDDF6C /* PBXContainerItemProxy */;
+		};
+		00D18302240CDA5E008ED4BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D182E9240CDA5D008ED4BE /* Goblin Converter */;
+			targetProxy = 00D18301240CDA5E008ED4BE /* PBXContainerItemProxy */;
+		};
+		00D1830D240CDA5E008ED4BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D182E9240CDA5D008ED4BE /* Goblin Converter */;
+			targetProxy = 00D1830C240CDA5E008ED4BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00D182F3240CDA5D008ED4BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D182F4240CDA5D008ED4BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00D182F8240CDA5E008ED4BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D182F9240CDA5E008ED4BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009A29A1240D347400CDDF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin ConverterUITests2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-ConverterUITests2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goblin Converter";
+			};
+			name = Debug;
+		};
+		009A29A2240D347400CDDF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin ConverterUITests2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-ConverterUITests2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goblin Converter";
+			};
+			name = Release;
+		};
+		00D18312240CDA5E008ED4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00D18313240CDA5E008ED4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00D18315240CDA5E008ED4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00D18316240CDA5E008ED4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		00D18318240CDA5E008ED4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin ConverterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goblin Converter.app/Goblin Converter";
+			};
+			name = Debug;
+		};
+		00D18319240CDA5E008ED4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin ConverterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goblin Converter.app/Goblin Converter";
+			};
+			name = Release;
+		};
+		00D1831B240CDA5E008ED4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goblin Converter";
+			};
+			name = Debug;
+		};
+		00D1831C240CDA5E008ED4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = "Goblin ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Goblin-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goblin Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009A29A0240D347400CDDF6C /* Build configuration list for PBXNativeTarget "Goblin ConverterUITests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009A29A1240D347400CDDF6C /* Debug */,
+				009A29A2240D347400CDDF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D182E5240CDA5D008ED4BE /* Build configuration list for PBXProject "Goblin Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D18312240CDA5E008ED4BE /* Debug */,
+				00D18313240CDA5E008ED4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D18314240CDA5E008ED4BE /* Build configuration list for PBXNativeTarget "Goblin Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D18315240CDA5E008ED4BE /* Debug */,
+				00D18316240CDA5E008ED4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D18317240CDA5E008ED4BE /* Build configuration list for PBXNativeTarget "Goblin ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D18318240CDA5E008ED4BE /* Debug */,
+				00D18319240CDA5E008ED4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D1831A240CDA5E008ED4BE /* Build configuration list for PBXNativeTarget "Goblin ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D1831B240CDA5E008ED4BE /* Debug */,
+				00D1831C240CDA5E008ED4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00D182E2240CDA5D008ED4BE /* Project object */;
+}

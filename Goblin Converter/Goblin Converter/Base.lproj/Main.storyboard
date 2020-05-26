@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Stl-iO-sRv">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--도깨비 번역기-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Goblin_Converter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Yo-Tl-fns">
+                                <rect key="frame" x="20" y="325" width="374" height="32"/>
+                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Wko-7r-7PW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="변환!"/>
+                                <connections>
+                                    <action selector="convertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPN-w7-HAx"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a5R-Cq-dzn">
+                                <rect key="frame" x="20" y="417" width="374" height="299"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myB-wp-E1a">
+                                <rect key="frame" x="20" y="377" width="95" height="30"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="MyN-fR-h8c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="클립보드에 복사"/>
+                                <connections>
+                                    <action selector="convertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZDi-sB-lsM"/>
+                                    <action selector="copyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cGs-rD-zOp"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="g5N-7G-2u6">
+                                <rect key="frame" x="60" y="64" width="294" height="32"/>
+                                <segments>
+                                    <segment title="도깨비"/>
+                                    <segment title="귀신"/>
+                                </segments>
+                                <connections>
+                                    <action selector="goblinSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="EFv-fa-e7f"/>
+                                </connections>
+                            </segmentedControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="도깨비와 귀신만 알 수 있는 번역기입니다. 한글을 사랑하기 위해서 재미로만 즐겨주세요!!!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gqN-6O-lLi">
+                                <rect key="frame" x="20" y="165" width="374" height="150"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="3nM-Ps-Xt2"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQX-ax-CiV">
+                                <rect key="frame" x="364" y="125" width="30" height="30"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="삭제"/>
+                                <connections>
+                                    <action selector="beforeDeleteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TeR-c7-MzG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLz-ko-1bm">
+                                <rect key="frame" x="364" y="377" width="30" height="30"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="삭제"/>
+                                <connections>
+                                    <action selector="afterDeleteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ime-vT-hQD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Yo-Tl-fns" secondAttribute="trailing" constant="20" id="6Ea-2q-KVh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZLz-ko-1bm" secondAttribute="trailing" constant="20" id="ALA-ON-BbA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g5N-7G-2u6" secondAttribute="trailing" constant="60" id="BhN-DP-A0c"/>
+                            <constraint firstItem="gqN-6O-lLi" firstAttribute="top" secondItem="g5N-7G-2u6" secondAttribute="bottom" constant="70" id="Bog-xZ-bHh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gqN-6O-lLi" secondAttribute="trailing" constant="20" id="DB7-ck-O0q"/>
+                            <constraint firstItem="a5R-Cq-dzn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="M6y-Yr-Pj5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a5R-Cq-dzn" secondAttribute="trailing" constant="20" id="MAx-nj-8re"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZQX-ax-CiV" secondAttribute="trailing" constant="20" id="Ohz-ra-6Cu"/>
+                            <constraint firstItem="gqN-6O-lLi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Xcg-GS-brb"/>
+                            <constraint firstItem="gqN-6O-lLi" firstAttribute="top" secondItem="ZQX-ax-CiV" secondAttribute="bottom" constant="10" id="ZEI-lJ-gkl"/>
+                            <constraint firstItem="a5R-Cq-dzn" firstAttribute="top" secondItem="ZLz-ko-1bm" secondAttribute="bottom" constant="10" id="aAd-yH-cNb"/>
+                            <constraint firstItem="4Yo-Tl-fns" firstAttribute="top" secondItem="gqN-6O-lLi" secondAttribute="bottom" constant="10" id="ab3-Hy-4rY"/>
+                            <constraint firstItem="a5R-Cq-dzn" firstAttribute="top" secondItem="4Yo-Tl-fns" secondAttribute="bottom" constant="60" id="bbs-Wp-0zd"/>
+                            <constraint firstItem="g5N-7G-2u6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="ehs-XM-Rjt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a5R-Cq-dzn" secondAttribute="bottom" constant="20" id="gNe-Uu-Qwf"/>
+                            <constraint firstItem="4Yo-Tl-fns" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nfo-jq-cG9"/>
+                            <constraint firstItem="a5R-Cq-dzn" firstAttribute="top" secondItem="myB-wp-E1a" secondAttribute="bottom" constant="10" id="oHn-G5-9Ep"/>
+                            <constraint firstItem="g5N-7G-2u6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="uGV-qc-Dgt"/>
+                            <constraint firstItem="myB-wp-E1a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zNh-bM-QT7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="도깨비 번역기" id="cNK-4F-2Oh"/>
+                    <connections>
+                        <outlet property="afterCopyButton" destination="myB-wp-E1a" id="YeL-v9-ZZu"/>
+                        <outlet property="afterDeleteButton" destination="ZLz-ko-1bm" id="OHi-h9-nXk"/>
+                        <outlet property="afterText" destination="a5R-Cq-dzn" id="cMh-E4-x9x"/>
+                        <outlet property="beforeDeleteButton" destination="ZQX-ax-CiV" id="mQ2-yl-lwv"/>
+                        <outlet property="beforeText" destination="gqN-6O-lLi" id="6gG-Kj-Jno"/>
+                        <outlet property="convertButton" destination="4Yo-Tl-fns" id="Sip-ay-ZvH"/>
+                        <outlet property="goblinSwitchOutlet" destination="g5N-7G-2u6" id="eSY-Sp-vkM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1038.75" y="128.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W1U-4M-nRo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Stl-iO-sRv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pVg-pk-gb4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pgy-EX-q5c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PCY-tz-1w3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="128.80434782608697"/>
+        </scene>
+    </scenes>
+</document>
